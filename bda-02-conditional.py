@@ -1,7 +1,7 @@
 """
     Script to print with a condition
 """ 
-age = 17
+age = 20
 print('Age:', age)
 if age >= 18:
     print('Adult')
