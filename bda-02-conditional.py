@@ -1,7 +1,8 @@
 """
     Script to print with a condition
 """ 
-age = 18
+# Substitude XXXX with the right value to print 'Adult' or 'Minor'
+age = XXXX
 print('Age:', age)
 if age >= 18:
     print('Adult')

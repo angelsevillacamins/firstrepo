@@ -18,5 +18,5 @@ Ingredients Vegetable Soup Recipe:
 """
 
 # Substitude XXXX with the right variable to print the previous message
-print_message(message)
+print_message(XXXX)
 
