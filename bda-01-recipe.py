@@ -9,7 +9,7 @@ Ingredients Vegetable Soup Recipe:
  - bouillon
  - water
  - salt
- - secret ingredient
+ - pepper
  - additional ingredient
 """
 
