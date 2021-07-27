@@ -1,0 +1,57 @@
+## Using GitHub issues
+Based on https://lab.github.com/githubtraining/introduction-to-github
+
+Issues are used to discuss ideas, enhancements, tasks, and bugs. They make collaboration easier by:
+
+- Providing everyone (even future team members) with the complete story in one place
+- Allowing you to cross-link to other issues and [pull requests](https://help.github.com/articles/github-glossary/#pull-request)
+- Creating a single, comprehensive record of how and why you made certain decisions
+- Allowing you to easily pull the right people and teams into a conversation with @-mentions
+
+The goal of this issue is to replace the `secret ingredient` of the file `bda-01-recipe.py` with your most secret ingredient of a vegetable soup recipe.
+
+Steps:
+  1. **Create an issue and assign yourself**
+    1. Navigate to the Issues tab and press "New issue"
+    2. Add a Title like `First issue to be solved` and copy the all the contents of this file into the "Comment" field
+    3. On the right side of the screen, under the "Assignees" section, click the gear icon and select yourself
+    4. Click **Submit new issue**
+    
+  2. **Create a branch**
+    Creating a branch allows you to make modifications to your project without changing the `main` branch. For that:
+    1. Navigate to the Code tab
+    2. Click **Branch: main** in the drop-down
+    3. In the field, enter `my-first-issue` as name for your branch 
+    4. Click **Create branch: <name>** or press the <kbd>Enter</kbd> key to create your branch
+    
+  3. **Commit a file**
+    1. Open the file `bda-01-recipe.py` by going to the Code tab and clicking into the file. Then, press the pencil icon.
+    2. Replace the `secret ingredient` with yours, for example, pepper
+    3. Scroll to the bottom of the page. Then find the "Commit changes" section
+    4. In the first field, type a commit message. The commit message should briefly tell contributors about the changes you are introducing to the file.
+    5. Click **Commit Changes**
+    Rules to live by for commit messages:
+        - Don’t end your commit message with a period.
+        - Keep your commit messages to 50 characters or less. Add extra detail in the extended description window if necessary. This is located just below the subject line.
+        - Use active voice. For example, "add" instead of "added" and "merge" instead of "merged"
+        - Think of your commit as expressing intent to introduce a change
+  
+  4. **Open a pull request**
+    To share your proposed changes, open a pull request. For that:
+    1. Navigate to the "Pull requests" tab and click **New pull request**
+    2. In the "base repository:" drop-down menu, make sure the "main" branch is selected
+    3. In the "compare:" drop-down menu, select `my-first-issue`
+    4. When you’ve selected your branch, enter a title for your pull request. For example `Add secret ingredient`
+    5. The next field helps you provide a description of the changes you made
+    6. Click **Create pull request**
+    
+  5. **Merge your pull request**
+    In real life scenarios, some comments or modifications should be carried out. For shake of simplicity, let's assume that all is correct. 
+    1. Click **Merge pull request**
+    2. Click **Confirm merge**
+    3. Once your branch has been merged, you don't need it anymore. Click **Delete branch**
+    4. Check that your secret ingredient was added to the master branch.
+    
+  6. **Close issue**
+    1. Navigate to the Issues tab and select the issue that you have created in step 1
+    2. Add a comment if you like and Click **Close issue**
